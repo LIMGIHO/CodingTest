@@ -134,3 +134,9 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 개인 의견
+1. js에서 filter,map, reduce등 간편하게 사용하던걸 stream을 통해 사용해야해서 익숙해져야 됨
+2. 자바에서는 sorted로 사용...
+3. 간단한 작업에서는 for로 사용하는게 stream을 사용할때보다 추가 오버헤드가 발생하여 빠름(람다표현, 중간연산과 최종연산, 병렬처리, gc오버헤드)
+   사용시 성능비교해가면서 사용할 필요가 있음 
