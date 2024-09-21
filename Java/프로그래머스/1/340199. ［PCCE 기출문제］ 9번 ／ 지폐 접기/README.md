@@ -110,3 +110,10 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 개인 의견
+
+1. 아래부분에서 10분정도 헤멤. JS에서는 구조분해 할당으로 한줄로 표현하여 b_min, b_max를 동시에 바꾸는것에 익숙해짐.
+   ```
+   b_min = Math.min(b_min, b_max);
+   b_max = Math.max(b_min, b_max);
