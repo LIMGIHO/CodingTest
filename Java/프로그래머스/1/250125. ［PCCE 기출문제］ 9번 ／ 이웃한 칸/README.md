@@ -1,3 +1,9 @@
+### ※개인 의견
+1. board[r][c] == board[h][w] 객체비교로 5분정도 헤멤..
+2. 기본 데이터 타입의 경우 == 사용, 값 비교시 equals 사용
+3. 배열 초기화시 {} 에 값을 넣음.. js의 [] 이게 더 뭔가 와닿음
+
+
 # [level 1] [PCCE 기출문제] 9번 / 이웃한 칸 - 250125 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/250125) 
@@ -118,8 +124,3 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
-
-### 개인 의견
-1. board[r][c] == board[h][w] 객체비교로 5분정도 헤멤..
-2. 기본 데이터 타입의 경우 == 사용, 값 비교시 equals 사용
-3. 배열 초기화시 {} 에 값을 넣음.. js의 [] 이게 더 뭔가 와닿음
