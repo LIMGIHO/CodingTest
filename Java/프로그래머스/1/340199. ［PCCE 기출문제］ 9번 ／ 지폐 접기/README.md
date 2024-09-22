@@ -4,6 +4,7 @@
    ```
    b_min = Math.min(b_min, b_max);
    b_max = Math.max(b_min, b_max);
+   ```
 
 
 # [level 1] [PCCE 기출문제] 9번 / 지폐 접기 - 340199 
