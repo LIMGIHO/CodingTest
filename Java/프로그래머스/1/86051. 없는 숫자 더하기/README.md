@@ -1,4 +1,4 @@
-### 개인 의견
+### ※개인 의견
 1. reduce를 사용해서 했지만 stream에는 sum도 있음
 ```
 Arrays.stream(numbers).sum();
