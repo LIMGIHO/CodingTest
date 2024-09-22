@@ -72,3 +72,9 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 개인 의견
+1. reduce를 사용해서 했지만 stream에는 sum도 있음
+```
+Arrays.stream(numbers).sum();
+```
