@@ -1,3 +1,7 @@
+### 개인 의견
+1. js에서 한줄로 끝날 문제가 20줄 가까이 됨...
+   
+
 # [level 1] 같은 숫자는 싫어 - 12906 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12906?language=java) 
