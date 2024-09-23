@@ -1,3 +1,6 @@
+### 개인 의견
+1. 다른 사람의 깔끔한 코드 추가 되어 있음..
+
 # [level 1] 숫자 문자열과 영단어 - 81301 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301?language=java) 
