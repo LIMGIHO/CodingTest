@@ -1,3 +1,7 @@
+### 개인 의견
+1. List to Array 변환 보다 list사이즈로 배열을 생성해 for로 넣는게 더 빠름
+   
+
 # [level 1] 모의고사 - 42840 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42840?language=java) 
