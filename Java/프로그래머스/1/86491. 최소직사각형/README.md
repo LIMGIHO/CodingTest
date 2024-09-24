@@ -1,3 +1,6 @@
+### 개인 의견
+1. 더 깔끔한 코드가 2개 있어 주석처리 해놓음
+
 # [level 1] 최소직사각형 - 86491 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/86491?language=java) 
