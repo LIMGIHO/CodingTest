@@ -1,3 +1,6 @@
+### 개인 의견
+1. calandar함수를 사용하는 깔끔한 코드가 있어 주석 처리 해놓음
+
 # [level 1] 2016년 - 12901 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12901?language=java) 
