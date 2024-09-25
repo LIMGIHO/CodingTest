@@ -1,3 +1,7 @@
+### 개인 의견
+1. 역시나 js보다 코드양이 많음..
+2. array, list 사용법 숙지 필요
+
 # [level 1] 소수 만들기 - 12977 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12977?language=java) 
