@@ -1,3 +1,8 @@
+### 개인 의견
+1. 정규표현식이란 언제나 놀라움 - dartResult.split("(?=[SDT*#])|(?<=[SDT*#])") 사용법 숙지
+2. 다른 풀이중 pattern, match로 나누는 경우도 알아둘 필요가 있을듯
+3. stack으로 푼 경우도 있는데 이것도 좋은 풀이인듯
+
 # [level 1] [1차] 다트 게임 - 17682 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17682?language=java) 
