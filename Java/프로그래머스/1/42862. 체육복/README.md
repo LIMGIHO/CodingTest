@@ -1,3 +1,7 @@
+### 개인 의견
+1. lost, reserve 두 배열을 하나의 배열로 정리해서 사용하면 간단해짐(다른사람 풀이 코드 주석 처리해놓음)
+2. 내가 푼 코드는 sort까지 해야해 비용이 더 들듯
+
 # [level 1] 체육복 - 42862 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42862?language=java) 
