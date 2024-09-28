@@ -1,3 +1,6 @@
+### 개인 의견
+1. js로 한번씩 다 풀어본 문제라 쉽게 완료.
+
 # [level 1] 크레인 인형뽑기 게임 - 64061 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/64061?language=java) 
