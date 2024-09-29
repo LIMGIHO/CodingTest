@@ -1,3 +1,8 @@
+### 개인 의견
+1. 현재 손가락과 패드의 거리를 두 좌표의 거리로 계산하여 한참 헤맴...
+2. 풀이 방식은 비슷하지만 사용한 변수, 함수명이 너무나도 깔끔한 코드 추가 해놓음
+
+
 # [level 1] [카카오 인턴] 키패드 누르기 - 67256 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/67256?language=java) 
