@@ -1,3 +1,8 @@
+### 개인 의견
+1. 구지 내림차순으로 정렬할 필요가 없었음..
+2. 간략한 다른 풀이의 코드 주석 처리
+
+
 # [level 1] 과일 장수 - 135808 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/135808?language=java) 
