@@ -1,3 +1,7 @@
+### 개인 의견
+1. 배열을 여러번 돌릴 필요가 없음...
+2. 다른사람 풀이 참조
+
 # [level 1] 덧칠하기 - 161989 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161989?language=java) 
