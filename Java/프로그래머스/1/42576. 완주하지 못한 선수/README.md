@@ -1,3 +1,7 @@
+### 개인 의견
+1. 정렬로 문제를 풀었지만 HashMap을 직접 구현한 다른풀이가 있어 주석처리..
+
+
 # [level 1] 완주하지 못한 선수 - 42576 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42576) 
