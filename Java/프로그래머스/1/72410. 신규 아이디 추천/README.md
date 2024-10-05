@@ -1,3 +1,10 @@
+### 개인 의견
+1. char비교는 '', String비교는 ""
+2. StringBuilder와 +의 차이
+   - 문자열은 불변 객체이기 때문에 +를 할때마다 새로운 문자열 객체가 생성(일반적으로 컴파일러가 StringBuilder로 최적화 하지만
+     반복문에서는 새로운 문자열 객체가 생성되어 비효율이 발생한다.
+   - 반복적이거나 대량의 문자열을 결합할땐 StringBuilder를 사용하는것이 성능에 유리하다.
+
 # [level 1] 신규 아이디 추천 - 72410 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/72410?language=java) 
