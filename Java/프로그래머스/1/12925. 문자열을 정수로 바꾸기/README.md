@@ -1,3 +1,7 @@
+### 개인 의견
+1. Integer.parseInt를 직접 구현한 다른 풀이가 인상적
+
+
 # [level 1] 문자열을 정수로 바꾸기 - 12925 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12925?language=java) 
