@@ -1,0 +1,9 @@
+-- 코드를 입력하세요
+SELECT T1.ID
+     , T1.NAME
+     , T1.HOST_ID
+  FROM PLACES T1
+ WHERE (SELECT COUNT(*) FROM PLACES Z
+         WHERE Z.HOST_ID = T1.HOST_ID) > 1
+ ORDER BY T1.ID
+ ;
