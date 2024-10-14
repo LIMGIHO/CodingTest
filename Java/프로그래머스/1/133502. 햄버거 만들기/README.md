@@ -1,3 +1,7 @@
+### 개인 의견
+1. 구지 Stack을 사용하지 않고 배열을 stack처럼 사용(javascript)하면 속도가 훨씬 빠름..
+2. 배열을 사용한 다른 풀이 추가
+
 # [level 1] 햄버거 만들기 - 133502 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133502?language=java) 
