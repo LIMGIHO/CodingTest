@@ -1,3 +1,7 @@
+### 개인 의견
+1. 자바는 역시 객체지향 언어
+2. 다른사람 우아한 코드 추가
+
 # [level 1] 실패율 - 42889 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42889?language=java) 
