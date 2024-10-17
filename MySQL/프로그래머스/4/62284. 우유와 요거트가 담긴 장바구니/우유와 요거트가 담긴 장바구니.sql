@@ -8,3 +8,12 @@ SELECT CART_ID
        ) T
  WHERE T.NAMES = 'Milk,Yogurt'
  ;
+
+
+-- SELECT CART_ID
+--     FROM (SELECT CART_ID
+--             FROM CART_PRODUCTS
+--             GROUP BY CART_ID, NAME
+--             HAVING NAME REGEXP 'Milk|Yogurt') AS S
+--     GROUP BY CART_ID
+--       HAVING COUNT(CART_ID) = 2
