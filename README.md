@@ -11,3 +11,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 3. 우유와 요거트가 담긴 장바구니.sql
   - HAVING절에 정규표현식을 사용한 다른사람 풀이 추가, 분석 필요
+
+4. java [level 1] 155652. 둘만의 암호
+  - 다른사람의 우아한 코드 확인 필요
