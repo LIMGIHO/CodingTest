@@ -1,3 +1,6 @@
+### 개인 의견
+1. 다른 사람의 우아한 코드들 확인
+
 # [level 1] 둘만의 암호 - 155652 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/155652?language=java) 
