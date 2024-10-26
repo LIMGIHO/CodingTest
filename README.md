@@ -14,3 +14,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 4. java [level 1] 155652. 둘만의 암호
   - 다른사람의 우아한 코드 확인 필요
+
+5. java [level 2] 12941. 최솟값 만들기
+- sort를 직접구현한 다른 풀이 분석 필요
