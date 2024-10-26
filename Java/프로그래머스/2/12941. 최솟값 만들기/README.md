@@ -1,3 +1,6 @@
+### 개인 의견
+1. Sort를 직접구현한 다른 풀이 추가
+
 # [level 2] 최솟값 만들기 - 12941 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12941?language=java) 
