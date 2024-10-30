@@ -16,4 +16,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
   - 다른사람의 우아한 코드 확인 필요
 
 5. java [level 2] 12941. 최솟값 만들기
-- sort를 직접구현한 다른 풀이 분석 필요
+   - sort를 직접구현한 다른 풀이 분석 필요
+
+6. MYSQL [level 1] 특정 형질을 가지는 대장균 찾기 - 301646
+   - 3번 형질을 가지고 있지 않은 세포를 찾으려면 2진수의 3번째 1, 즉 4를 비트연산해줘야함
+   - 값 & 4 비트연산시 10진수값 4가 리턴 됨 
