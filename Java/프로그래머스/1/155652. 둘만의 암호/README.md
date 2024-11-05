@@ -1,13 +1,10 @@
-### 개인 의견
-1. 다른 사람의 우아한 코드들 확인
-
 # [level 1] 둘만의 암호 - 155652 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/155652?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/155652) 
 
 ### 성능 요약
 
-메모리: 68.3 MB, 시간: 3.67 ms
+메모리: 81.4 MB, 시간: 7.69 ms
 
 ### 구분
 
@@ -19,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 20일 16:47:42
+2024년 11월 05일 21:46:42
 
 ### 문제 설명
 

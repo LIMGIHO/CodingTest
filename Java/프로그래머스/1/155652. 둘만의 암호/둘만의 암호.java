@@ -1,50 +1,30 @@
-class Solution {
-    public String solution(String s, String skip, int index) {
-        String answer = "";
-        
-        for (String str : s.split("")) {
-            answer += getReplace(str, skip, index);
-        }
-        
-        return answer;
-    }
-    
-    public String getReplace(String str, String skip, int index) {
-        String alpha = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
-        int idx = alpha.indexOf(str);
-        String s = str;
-        while (index > 0) {
-            idx++;
-            s = Character.toString(alpha.charAt(idx));
-            
-            if (skip.contains(s)) continue;
-            index--;
-        }
-        
-        return s;
-    }
-}
-
-
 // class Solution {
 //     public String solution(String s, String skip, int index) {
-//         StringBuilder answer = new StringBuilder();
-
-//         for (char letter : s.toCharArray()) {
-//             char temp = letter;
-//             int idx = 0;
-//             while (idx < index) {
-//                 temp = temp == 'z' ? 'a' : (char) (temp + 1);
-//                 if (!skip.contains(String.valueOf(temp))) {
-//                     idx += 1;
-//                 }
-//             }
-//             answer.append(temp);
+//         String answer = "";
+        
+//         for (String str : s.split("")) {
+//             answer += getReplace(str, skip, index);
 //         }
-
-//         return answer.toString();
+        
+//         return answer;
+//     }
+    
+//     public String getReplace(String str, String skip, int index) {
+//         String alpha = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+//         int idx = alpha.indexOf(str);
+//         String s = str;
+//         while (index > 0) {
+//             idx++;
+//             s = Character.toString(alpha.charAt(idx));
+            
+//             if (skip.contains(s)) continue;
+//             index--;
+//         }
+        
+//         return s;
 //     }
 // }
+
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -103,31 +83,3 @@ class Solution {
         }
     }
 }
-
-//         class Solution {
-//     public String solution(String s, String skip, int index) {
-//         String answer = "";
-//         //skip을 알파벳에서 없애고 시작하기.
-//         String alphabet = "abcdefghijklmnopqrstuvwxyz";
-//         String[] delete = skip.split("");
-
-//         for(String d:delete)
-//             alphabet = alphabet.replace(d,"");
-
-//         String[] myalphabet = alphabet.split("");
-//         String[] sArr = s.split("");
-
-//         for(int i = 0; i< sArr.length; i++){
-//             for(int j = 0; j < myalphabet.length; j++){
-
-//                 if(sArr[i].equals(myalphabet[j])){
-
-//                     answer+=myalphabet[(j+index)%myalphabet.length];
-//                     continue;
-//                 }
-//             }
-//         }
-
-//         return answer;
-//     }
-// }
