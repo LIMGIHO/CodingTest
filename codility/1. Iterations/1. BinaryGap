@@ -1,0 +1,26 @@
+
+class Solution {
+    public int solution(int N) {
+        // Implement your solution here
+        int answer = 0;
+        String str = Integer.toBinaryString(N);
+        boolean isReady = false;
+        boolean isFinish = false;
+
+        int count = 0;
+        for (char c : str.toCharArray()) {
+            if (c == '1') {
+                if (isReady) {
+                    isFinish = true;
+                    answer = Math.max(answer, count);
+                }
+                isReady = true;
+                count = 0;
+            } else {
+                count++;
+            }
+        }
+
+        return answer;
+    }
+}
