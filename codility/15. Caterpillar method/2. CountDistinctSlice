@@ -1,0 +1,28 @@
+// you can also use imports, for example:
+import java.util.*;
+
+// you can write to stdout for debugging purposes, e.g.
+// System.out.println("this is a debug message");
+
+class Solution {
+    public int solution(int M, int[] A) {
+        // Implement your solution here
+        int N = A.length;
+        int left = 0;
+        int[] lastSeen = new int[M];
+        int answer = 0;
+
+        for (int right = 0; right < N; right++) {
+            left = Math.max(left, lastSeen[A[right]]);
+            answer += (right - left + 1);
+            
+            lastSeen[A[right]] = right + 1;
+
+            // System.out.println("right: " + right + " / " + left + " / " + answer + " / " + Arrays.toString(lastSeen));
+
+            if (answer > 1000000000) return 1000000000;
+        }
+
+        return answer;
+    }
+}
