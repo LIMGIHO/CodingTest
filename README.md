@@ -24,3 +24,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 7. java lv2 12911. 다음 큰 숫자
    - 비트연산을 이용한 미친 풀이 확인 필요
+  
+8. java 백준 1145. 적어도 대부분의배수
+   - 최대공약수, 최소공배수로 해결한 코드 확인
