@@ -27,3 +27,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
   
 8. java 백준 1145. 적어도 대부분의배수
    - 최대공약수, 최소공배수로 해결한 코드 확인
+  
+9. java 백준 1181. 단어정렬
+   - 기본적인 정렬 comparator 확인
