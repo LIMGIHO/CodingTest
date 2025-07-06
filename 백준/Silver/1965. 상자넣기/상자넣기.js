@@ -17,7 +17,7 @@ function solve(S) {
     const nums = S[1].split(' ').map(Number);
 
     let answer = 1;
-    let dp = Array.from({length: 10000},  () => 1);
+    let dp = Array.from({length: n},  () => 1);
     dp[0] = 1;
 
     for (let i = 1; i < n; i++) {
