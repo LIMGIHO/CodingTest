@@ -2,44 +2,42 @@ const fs = require('fs');
 const inputPath = fs.existsSync('dev/stdin') ? 'dev/stdin' : '/dev/stdin';
 const input = fs.readFileSync(inputPath).toString().trim().split('\n');
 
-function solve(input) {
-    //1. 부모, 자식 양방향 object 생성
-    //2. r1에서 r2까지 몇번에 걸처 갔는지 bfs -> 촌수 리턴
-    //3. 값이 없으면 -1 리턴
-
+const solve = (input) => {
     let answer = -1;
     const n = Number(input[0]);
-    const [r1, r2] = input[1].split(' ').map(Number);
+    const [from, to] = input[1].split(' ').map(Number);
     const m = Number(input[2]);
-    const relations = input.slice(3).map(rel => rel.split(' ').map(Number));
-    const check = Array.from({length:n+1}, () => false);
-    const graph = {}
-    for (const [x,y] of relations) {
-        if (!graph[x]) graph[x] = [];
-        graph[x].push(y);
+    const relations = Array.from({length: n + 1}, () => []);
+    const check = Array.from({length: n + 1}, () => false);
 
-        if (!graph[y]) graph[y] = [];
-        graph[y].push(x);
-    }
+    for (const r of input.slice(3)) {
+        const [x,y] = r.split(' ').map(Number);
+        relations[x].push(y);
+        relations[y].push(x);
+    };
 
-    const BFS = (r, count) => {
-        if (check[r]) return;
-        if (r === r2) {
-            answer = count;
-            return;
+    const BFS = () => {
+        const que = [[from, 0]];
+
+        while (que.length > 0) {
+            const [child, lv] = que.shift();
+            if (check[child]) continue;
+            
+            check[child] = true;
+            if (child === to) {
+                return lv;
+            }
+
+            for (const x of relations[child]) {
+                que.push([x, lv+1]);
+            }
         }
 
-        const arr = graph[r];
-        check[r] = true;
-        for (const y of arr) {
-            BFS(y, count+1);
-        }
+        return answer;
     }
-
-    BFS(r1, 0);
+    
+    answer = BFS();
     return answer;
 }
 
 console.log(solve(input));
-
-
