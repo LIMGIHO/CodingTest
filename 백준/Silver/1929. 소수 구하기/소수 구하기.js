@@ -3,8 +3,8 @@ const inputPath = fs.existsSync('dev/stdin') ? 'dev/stdin' : '/dev/stdin';
 const input = fs.readFileSync(inputPath, 'utf8').trim().split('\n');
 
 function solve(input) {
-  const max = 1000001;
   const [M,N] = input[0].split(' ').map(Number);
+  const max = N+1;
   const arr = Array.from({length: max}, () => true);
   arr[0] = arr[1] = false;
 
