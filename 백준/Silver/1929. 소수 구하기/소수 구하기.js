@@ -8,7 +8,7 @@ function solve(input) {
   const arr = Array.from({length: max}, () => true);
   arr[0] = arr[1] = false;
 
-  for (let i = 2; i <= max; i++) {
+  for (let i = 2; i*i <= max; i++) {
     if (arr[i]) {
       let next = i + i;
       while (next <= max) {
