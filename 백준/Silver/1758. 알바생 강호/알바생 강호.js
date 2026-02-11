@@ -9,6 +9,7 @@ const solve = (input) => {
     let answer = 0;
     for (let i = 0; i < N; i++) {
         const tip = (lines[i] - i) <= 0 ? 0 : (lines[i] - i);
+        if (tip < 0) break;
         answer += tip;
     }
 
