@@ -15,9 +15,9 @@ const solve = (input) => {
             primeList.push(i);
             let idx = i * i;
             while (idx <= max) {
-                if (primes[idx] === 0) {
+                // if (primes[idx] === 0) {
                     primes[idx] = 1;
-                }
+                // }
                 idx += i;
             }
         }
@@ -32,7 +32,8 @@ const solve = (input) => {
             const a = prime;
             const b = n - prime;
 
-            if (b < 0) break;
+            // if (b < 0) break;
+            if (prime > n / 2) break;
 
             if (primes[b] === 0) {
                 isPossible = true;
