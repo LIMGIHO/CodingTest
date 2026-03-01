@@ -7,11 +7,13 @@ const solve = (input) => {
     
     const max = 1000000;
     const primes = new Uint8Array(max);
+    const primeList = [];
     
     for (let i = 2; i <= max; i++) {
         // 0 : 소수, 1 : 비소수
         if (primes[i] === 0) {
-            let idx = i + i;
+            primeList.push(i);
+            let idx = i * i;
             while (idx <= max) {
                 if (primes[idx] === 0) {
                     primes[idx] = 1;
@@ -26,13 +28,11 @@ const solve = (input) => {
         if (n === 0) break;
 
         let isPossible = false;
-        for (let i = 2; i <= max; i++) {
-            if (primes[i] === 1) continue;
+        for (const prime of primeList) {
+            const a = prime;
+            const b = n - prime;
 
-            const a = i;
-            const b = n - a;
-
-            // console.log("====n", n, a, b)
+            if (b < 0) break;
 
             if (primes[b] === 0) {
                 isPossible = true;
